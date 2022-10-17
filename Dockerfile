@@ -1,8 +1,6 @@
 #Imagem base em debian buster slim 
 FROM node:18-buster-slim
 
-ENV NODE_ENV prodution
-
 #Copia aplicação para dentro do container
 COPY src /app 
 
