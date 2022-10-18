@@ -7,6 +7,7 @@ COPY src /app
 #location work
 WORKDIR /app
 
+#Install packages
 RUN npm install
 
 #export o port 8080
