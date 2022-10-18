@@ -1,3 +1,7 @@
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/miraldo/conversao-temperatura/ci">
+
+https://img.shields.io/badge/node.js
+
 # Projeto conversão de temperatura
 
 ### Sobre o projeto
