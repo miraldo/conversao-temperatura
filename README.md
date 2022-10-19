@@ -1,6 +1,5 @@
 
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/miraldo/conversao-temperatura/ci">
-
+[![GitHub CI](https://github.com/miraldo/conversao-temperatura/actions/workflows/main.yml/badge.svg)](https://github.com/miraldo/conversao-temperatura)
 [![Docker Pulls](https://badgen.net/docker/pulls/miraldo/conversao-temperatura?icon=docker&label=pulls)](https://hub.docker.com/r/miraldo/conversao-temperatura/)
 [![Docker Image Size](https://badgen.net/docker/size/miraldo/conversao-temperatura?icon=docker&label=image%20size)](https://hub.docker.com/r/miraldo/conversao-temperatura/)
 
