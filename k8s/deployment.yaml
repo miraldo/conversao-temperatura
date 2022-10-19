@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: conversao-temperatura
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: conversao-temperatura
+      version: "v1"
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: conversao-temperatura
+        version: "v1"
+        forceredeploy: BuildID-First-Build
+    spec:
+      containers:
+        - name: conversao-temperatura-app
+          image: miraldo/conversao-temperatura:latest
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "500m"
+            limits:
+              memory: "256Mi"
+              cpu: "1"
+          ports:
+            - name: http
+              containerPort: 8080
