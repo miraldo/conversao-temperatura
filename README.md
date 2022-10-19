@@ -1,4 +1,8 @@
+
 <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/miraldo/conversao-temperatura/ci">
+
+[![Docker Pulls](https://badgen.net/docker/pulls/miraldo/conversao-temperatura?icon=docker&label=pulls)](https://hub.docker.com/r/miraldo/conversao-temperatura/)
+[![Docker Image Size](https://badgen.net/docker/size/miraldo/conversao-temperatura?icon=docker&label=image%20size)](https://hub.docker.com/r/miraldo/conversao-temperatura/)
 
 
 # Projeto conversão de temperatura
